@@ -6,7 +6,7 @@ export function InputHook()
 
   return (
     <div className="mt4">
-      Uncontrolled Input Hook
+      Input Hook
       <input ref={ref} className="db mv3"/>
       <button className="mr3" onClick={() => alert(value)}>Show Value</button>
       <button className="mr3" onClick={() => setValue('hello')}>Set Value (to "hello")</button>
