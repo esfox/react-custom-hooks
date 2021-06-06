@@ -1,4 +1,4 @@
-import { UncontrolledInputHook } from './components/UncontrolledInputHook';
+import { InputHook } from './components/InputHook';
 
 export function App()
 {
@@ -8,7 +8,7 @@ export function App()
         <code>React Custom Hooks</code>
       </h3>
       <hr></hr>
-      <UncontrolledInputHook/>
+      <InputHook/>
     </div>
   );
 }
